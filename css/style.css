@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -11,6 +13,56 @@
 
 .fa-solid {
     color: var(--main-color);
+}
+
+
+/* nav bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+   
+}
+
+.gauche {
+    display: flex;
+    height: 19px;
+    width: 61px;
+    left: 30px;
+    top: 30px;
+  
+ 
+}
+
+.droite a{
+    
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-top: 10px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    Font-size: 16px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+
+
+}
+
+.droite :hover {
+    
+    justify-content: center;
+    align-items: center;
+    border-top: solid 4px #0065FC;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0065FC;
 }
 
 body {
