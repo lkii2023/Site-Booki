@@ -78,8 +78,6 @@ nav {
     border: 1px solid #F2F2F2;
 }
 
-
-
 .fa-sharp {
     width: 50px;
     height: 50px;
@@ -100,7 +98,6 @@ nav {
     margin: 0;
     width: 205px;
     height: 50px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -111,7 +108,6 @@ nav {
 }
 
 .container button {
-
     height: 50px;
     width: 172px;
     display: flex;
@@ -120,9 +116,6 @@ nav {
     padding: 15px 16px;
     gap: 10px;
     font-size: 1.2em;
-    font-family: 'Raleway', sans-serif;
-    font-style: bold;
-    /* Blue */
     font-weight: bold;
     background: #0065FC;
     color: #DEEBFF;
@@ -130,6 +123,12 @@ nav {
     border-radius: 0px 15px 15px 0px;
 }
 
+.container :hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #061120;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 /* partie filtre */
 
@@ -148,6 +147,12 @@ nav {
     align-items: center;
 }
 
+.icones ul :hover{
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--blue-light, #DEEBFF);
+}
+
 li i {
     font-size: 20px;
 }
@@ -156,12 +161,11 @@ li i {
     border: #F2F2F2 2px solid ;
     border-radius: 50px;
     align-items: center;
-    padding: 17px; 
+    padding: 17px;
 }
 
 .icones h3 {
     font-size: 1.2em;
-    font-family: 'Raleway', sans-serif;
     font-style: bold;
     margin-left: -5px;
 }
@@ -172,33 +176,30 @@ ul {
 }
 
 li.filtres {
-border: none;
-margin-left: 1px;
-padding: 0;
+    border: none;
+    margin-left: 1px;
+    padding: 0;
 }
-
 
 /* partie information */
 
 .info {
     display: flex;
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 .info i {
-font-size: 15px;
-border: #F2F2F2 2px solid;
-padding: 10px 15px 10px 15px;
-border-radius: 50%;
+    font-size: 15px;
+    border: #F2F2F2 2px solid;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
 }
 
 .info p {
-margin-left: 15px;
-padding-top: 10px;
+    margin-left: 15px;
+    padding-top: 10px;
 }
-
-
 
 body {
     display: flex;
