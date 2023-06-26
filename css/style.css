@@ -15,7 +15,6 @@
     color: var(--main-color);
 }
 
-
 /* nav bar */
 
 nav {
@@ -24,47 +23,33 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-   
-    
-   
 }
 
 .gauche {
     display: flex;
-    
     height: 49px;
     width: 61px;
     left: 300px;
     top: 30px;
-  
-    
-  
- 
 }
 
 .droite a{
-    
     display: inline-block;
     margin-bottom: 70px;
     padding-top: 10px;
     align-items: center;
     margin-right: 20px;
     margin-left: 20px;
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     Font-size: 16px;
     text-decoration: none;
     color: black;
-    box-sizing: border-box;
-
-
 }
 
 .droite :hover {
-    
     justify-content: center;
     align-items: center;
-    border-top: solid 4px #0065FC;
+    border-top: solid 3px #0065FC;
     cursor: pointer;
     text-decoration: none;
     color: #0065FC;
@@ -80,7 +65,6 @@ nav {
 .titre p {
     margin: 0;
     padding-top: 5px;
-
 }
 
 /* barre de recherche */
@@ -103,12 +87,10 @@ nav {
     border-radius: 15px 0px 0px 15px;
     color: #000000;
     display: flex;
-   padding-left: 20px;
-   padding-right: 20px;
-   align-items: center;
-   font-size: 20px;
-    
-
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 20px;
 }
 
 .container input {
@@ -146,27 +128,24 @@ nav {
     color: #DEEBFF;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-
 }
 
 
 /* partie filtre */
 
 .barfilter  {
-display: inline-block;
-  flex-direction: row;
-  justify-content: space-between;
-    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .icones * {
-display: flex;
-flex-direction: row;
-margin-right: 15px;
-margin-left: 15px;
-text-decoration: none;
-align-items: center;
-
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    align-items: center;
 }
 
 li i {
@@ -174,13 +153,10 @@ li i {
 }
 
 .icones li{
-
     border: #F2F2F2 2px solid ;
     border-radius: 50px;
     align-items: center;
     padding: 17px; 
-   
-    
 }
 
 .icones h3 {
@@ -188,7 +164,6 @@ li i {
     font-family: 'Raleway', sans-serif;
     font-style: bold;
     margin-left: -5px;
-
 }
 
 ul {
@@ -200,7 +175,6 @@ li.filtres {
 border: none;
 margin-left: 1px;
 padding: 0;
-
 }
 
 
@@ -209,8 +183,7 @@ padding: 0;
 .info {
     display: flex;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 .info i {
@@ -218,8 +191,6 @@ font-size: 15px;
 border: #F2F2F2 2px solid;
 padding: 10px 15px 10px 15px;
 border-radius: 50%;
-
-
 }
 
 .info p {
