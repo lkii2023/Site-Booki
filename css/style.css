@@ -91,7 +91,7 @@ nav {
 }
 
 .fa-magnifying-glass{
- display: none;
+    display: none;
 }
 
 .container input {
@@ -145,7 +145,6 @@ nav {
 .icones {
     display: flex;
     align-items: center;
-    
 }
 
 .icones ul {
@@ -157,10 +156,10 @@ nav {
 }
 
 .icones li {
-display: flex;
-width: 150px;
-justify-content: center;
-align-items: center;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icones ul :hover{
@@ -195,7 +194,7 @@ ul {
 
 .filtres {
    display: flex;
-margin: 15px;
+   margin: 15px;
 }
 
 /* partie information */
@@ -207,7 +206,6 @@ margin: 15px;
 }
 
 .info i {
-    
     font-size: 15px;
     border: #F2F2F2 2px solid;
     padding: 10px 15px 10px 15px;
@@ -347,10 +345,10 @@ body {
      }
      
      .icones li {
-     display: flex;
-     width: 150px;
-     justify-content: center;
-     align-items: center;
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
      }
      
      .icones ul :hover{
@@ -376,7 +374,6 @@ body {
      .icones h3 {
         width: 100%;
          font-size: 1.2em;
-         
          margin-left: -5px;
      }
      
@@ -434,7 +431,6 @@ body {
 
     header {
         margin: 0 35px 0 35px;
-
     }
 
     nav {
@@ -572,11 +568,9 @@ body {
         margin-left: 5px;
       }
 
-
       li i {
         justify-content: center;
         padding-left: 20px;
-
       }
         
       /*info */
