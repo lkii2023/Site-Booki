@@ -16,7 +16,6 @@
 }
 
 /* nav bar */
-
 nav {
     display: flex;
     flex-direction: row;
@@ -55,7 +54,6 @@ nav {
 }
 
 /* titre */
-
 .titre h1{
     margin: 0;
     padding: 0;
@@ -67,7 +65,6 @@ nav {
 }
 
 /* barre de recherche */
-
 .container {
     display: flex;
     flex-direction: row;
@@ -133,8 +130,7 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-/* partie filtre */
-
+/* barfilter */
 .barfilter  {
    height: auto;
     width: 100%;
@@ -168,7 +164,6 @@ nav {
     background: var(--blue-light, #DEEBFF);
 }
 
-
 li i {
     font-size: 20px;
     padding-right: 15px;
@@ -197,8 +192,7 @@ ul {
    margin: 15px;
 }
 
-/* partie information */
-
+/* information */
 .info {
     display: flex;
     padding: 0;
@@ -320,9 +314,6 @@ body {
     margin-bottom: 5px;
 }
 
-
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -356,8 +347,7 @@ body {
          text-decoration: none;
          background: var(--blue-light, #DEEBFF);
      }
-     
-     
+      
      li i {
          font-size: 20px;
          padding-right: 15px;
@@ -387,8 +377,7 @@ body {
          margin-left: 1px;
          padding: 0;
      }
-
-
+     
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -471,13 +460,13 @@ body {
       }
 
       /* barre de survol */
-
       .droite :hover {
         width: 100%;
         border: none;
         border-bottom: #0065FC 2px solid;
         padding-bottom: 15px;
       }
+
       /* partie titre */
       .titre h1 {
         width: 90%;
@@ -491,7 +480,7 @@ body {
         font-size: 16px;
       }
 
-      /* barre de recherche */
+      /*search bar*/
       .container {
         display: flex;
         flex-direction: row;
@@ -529,7 +518,6 @@ body {
       }
        
       /* filter */
-      
        .icones ul{
         display: flex;
         flex-direction: row;
