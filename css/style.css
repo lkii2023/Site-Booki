@@ -141,7 +141,7 @@ nav {
     padding: 17px;
 }
 
-.icones ul :hover{
+.icones ul :hover {
     cursor: pointer;
     text-decoration: none;
     background: var(--blue-light, #DEEBFF);
@@ -179,6 +179,7 @@ li i {
     padding-top: 10px;
 }
 
+/* main */
 body {
     display: flex;
     justify-content: center;
@@ -287,7 +288,8 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1280px) {
-   /* nav */
+   
+    /* nav */
     .left img {
          width: auto;
          height: 50%;
