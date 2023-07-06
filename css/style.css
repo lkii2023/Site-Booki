@@ -24,7 +24,7 @@ nav {
     height: 100px;
 }
 
-.gauche {
+.left {
     display: flex;
     height: 49px;
     width: 61px;
@@ -32,7 +32,7 @@ nav {
     top: 30px;
 }
 
-.droite a{
+.right a {
     display: inline-block;
     margin-bottom: 70px;
     padding-top: 10px;
@@ -44,26 +44,20 @@ nav {
     color: black;
 }
 
-.droite :hover {
-   
+.right :hover {
     border-top: solid 3px #0065FC;
     cursor: pointer;
     text-decoration: none;
     color: #0065FC;
 }
 
-/* titre */
-.titre h1{
-    margin: 0;
-    padding: 0;
-}
-
-.titre p {
+/* title */
+.title p {
     margin: 0;
     padding-top: 5px;
 }
 
-/* barre de recherche */
+/* search bar */
 .container {
     display: flex;
     flex-direction: row;
@@ -86,19 +80,13 @@ nav {
     font-size: 20px;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     display: none;
 }
 
 .container input {
-    flex: none;
-    order: 0;
-    padding: 0;
-    margin: 0;
     width: 205px;
     height: 50px;
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -129,14 +117,6 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-/* barfilter */
-.barfilter  {
-    height: auto;
-    width: 100%;
-    padding: auto;
-    margin: auto;
-}
-
 .icones {
     display: flex;
     align-items: center;
@@ -155,6 +135,10 @@ nav {
     width: 150px;
     justify-content: center;
     align-items: center;
+    border: #F2F2F2 2px solid ;
+    border-radius: 50px;
+    align-items: center;
+    padding: 17px;
 }
 
 .icones ul :hover{
@@ -168,24 +152,12 @@ li i {
     padding-right: 15px;
 }
 
-.icones li{
-    border: #F2F2F2 2px solid ;
-    border-radius: 50px;
-    align-items: center;
-    padding: 17px;
-}
-
 .icones h3 {
     font-size: 1.2em;
     margin-left: -5px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.filtres {
+.filter {
    display: flex;
    margin: 15px;
 }
@@ -193,8 +165,6 @@ ul {
 /* information */
 .info {
     display: flex;
-    padding: 0;
-    margin: 0;
 }
 
 .info i {
@@ -318,13 +288,13 @@ body {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1280px) {
    /* nav */
-    .gauche img {
+    .left img {
          width: auto;
          height: 50%;
     }
 
     /* filter */
-    .filtres {
+    .filter {
          display: flex;
          flex-direction: row;
          justify-content: center;
@@ -332,7 +302,7 @@ body {
          margin-bottom: 70px;
      }
 
-     .filtres h3{
+     .filter h3 {
          font-size: 20px;
      }
 
@@ -345,34 +315,34 @@ body {
      .icones ul {
          width: 100%;
          margin-top: 25px;
-     }
+    }
      
-     .icones ul :hover {
+    .icones ul :hover {
          cursor: pointer;
          text-decoration: none;
          background: var(--blue-light, #DEEBFF);
-     }
+    }
       
-     li i {
+    li i {
          display: flex;
          font-size: 18px;
          justify-content: center;
          align-items: center;
-     }
+    }
      
-     .icones li {
+    .icones li {
         display: flex;
          border: var(--grey-tint-2, #D9D9D9) 2px solid ;
          border-radius: 50px;
          align-items: center;
          padding: 15px 0px 15px 15px;
          margin-top: 15px;
-     }
+    }
      
-     .icones h3 {
+    .icones h3 {
          width: 90%;
          font-size: 16px;
-     }
+    }
     
      /* main */
      
@@ -411,35 +381,29 @@ body {
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px)  {
     
-    .main-container {
-         margin: 0px;
+      .main-container {
+         margin: 0;
          padding: 0;
-    }
+      }
 
-    header {
-         margin: 0 35px 0 35px;
-    }
+      header {
+         margin: 0 35px 0 35px; 
+      }
 
-    nav {
+      nav {
          display: flex;
          flex-direction: column;
          height: auto;
          margin: auto;
       }
     
-      .gauche {
+      .left {
          width: 100%;
          justify-content: center;
          margin: 15px;
       }
 
-      .gauche img {
-         width: 20%;
-         height: 50%;
-         padding: 15px;
-      }
-    
-      .droite {
+      .right {
          display: flex;
          width: 100%;
          flex-direction: row;
@@ -447,7 +411,7 @@ body {
          margin: 10px 35px 30px 35px; 
       }
     
-      .droite a {
+      .right a {
          display: flex;
          width: 100%;
          justify-content: center;
@@ -458,7 +422,7 @@ body {
       }
 
       /* right hover */
-      .droite :hover {
+      .right :hover {
          width: 100%;
          border: none;
          border-bottom: #0065FC 2px solid;
@@ -466,13 +430,13 @@ body {
       }
 
       /* title */
-      .titre h1 {
+      .title h1 {
          width: 90%;
          font-size: 25px;
          font-weight: bolder; 
       }
 
-      .titre p {
+      .title p {
          width: 100%;
          margin-top: 3px;
          font-size: 16px;
@@ -549,13 +513,13 @@ body {
          border: 2px solid var(--grey-tint-2, #D9D9D9);
       }
 
-      .filtres {
+      .filter {
          display: flex;
          justify-content: center;
          margin-bottom: 170px;
-    }
+      }
 
-      .filtres h3 {
+      .filter h3 {
          width: 100%;
          margin-top: 10px;
          font-size: 18px;
@@ -590,7 +554,5 @@ body {
          padding-bottom: 6px;
          font-size: 18px;
       }
-     
-
     /* ... */
 }
