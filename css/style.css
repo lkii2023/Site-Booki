@@ -192,6 +192,7 @@ li i {
 .info {
     display: flex;
     margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .info i {
