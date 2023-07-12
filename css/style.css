@@ -34,6 +34,7 @@ nav {
     align-items: center;
     height: 79px;  
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .left {
@@ -50,11 +51,13 @@ nav {
 
 .right {
     display: flex;
-    flex-direction: row;
     width: 328px;
-    height: 35px;
-    padding: 0 25px;
-    justify-content: space-around;
+    padding-left: 25px; 
+    padding-right: 25px; 
+    flex-direction: row; 
+    justify-content: flex-end; 
+    margin-bottom: 30px;
+    gap: 68px;
 }
 
 .right a {
@@ -74,7 +77,7 @@ nav {
 /* title */
 .title p {
     margin: 0;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 /* search bar */
@@ -82,9 +85,10 @@ nav {
     display: flex;
     flex-direction: row;
     height: 50px;
-    width: 337px;
+    width: 377px;
     border-radius: 15px; 
     border: 1px solid #F2F2F2;
+    margin-top: 35px;
 }
 
 .fa-sharp {
@@ -140,25 +144,26 @@ nav {
 .icones {
     display: flex;
     align-items: center;
+    margin-top: 35px;
 }
 
 .icones ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
-    margin-top: 5px;
+    width: 55%;
 }
 
 .icones li {
     display: flex;
-    width: 150px;
+    height: 50px;
+    width: auto;
     justify-content: center;
     align-items: center;
     border: #F2F2F2 2px solid ;
     border-radius: 50px;
     align-items: center;
-    padding: 17px;
+    padding: 0 19px 0 19px;
 }
 
 .icones ul :hover {
@@ -179,12 +184,14 @@ li i {
 
 .filter {
    display: flex;
-   margin: 15px;
+   margin-right: 15px;
+   margin-left: 10px;
 }
 
 /* information */
 .info {
     display: flex;
+    margin-top: 35px;
 }
 
 .info i {
@@ -206,10 +213,9 @@ body {
 }
 
 .main-container {
-    width: 100%;
-    max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    gap: 35px;
 }
 
 .section-title {
@@ -244,11 +250,13 @@ body {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding: 0px 50px;
+    
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
-    border-radius: 0px;
+    border-radius: 15px;
     padding: 30px;
     box-sizing: border-box;
 }
