@@ -15,6 +15,10 @@
     color: var(--main-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* nav bar */
 .main-container-nav {
     width: 100%;
@@ -39,7 +43,6 @@ nav {
 
 .left {
     display: flex;
-    height: auto;
     width: 121px;
 }
 
@@ -55,9 +58,8 @@ nav {
     padding-left: 25px; 
     padding-right: 25px; 
     flex-direction: row; 
-    justify-content: center; 
+    justify-content: space-around; 
     margin-bottom: 40px;
-    gap: 68px;
 }
 
 .right a {
@@ -68,17 +70,27 @@ nav {
     padding-top: 19px;
 }
 
-.right :hover {
+nav a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #0065FC;
     border-top: solid 3px #0065FC;
-    cursor: pointer;
-   
+  }
+  
+  nav a:active {
     color: #0065FC;
-}
-
-.right a:active {
+    border-top: solid 3px #0065FC;
+  }
+  
+  nav a:active:not(:hover) {
     color: #0065FC;
-}
-
+    border-top: solid 3px #0065FC;
+  }
+  
 /* title */
 .title p {
     margin: 0;
