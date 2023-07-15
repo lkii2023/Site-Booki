@@ -38,6 +38,7 @@ nav {
 	top: 0;
     overflow: hidden;
     background-color: white;
+    
 }
 
 .left {
@@ -53,24 +54,28 @@ nav {
 
 .right {
     display: flex;
-    width: 328px;
+    width: 279px ;
+    height: 35px;
     padding-left: 25px; 
     padding-right: 25px; 
     flex-direction: row; 
-    justify-content: space-evenly; 
-    margin-bottom: 40px;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-right: 0.31px;
+    gap: 68px;
 }
 
 .right a {
+    width: auto;
     font-size: 16px;
     text-decoration: none;
     color: black;
     height: auto;
-    padding-top: 19px;
+    padding-top: 14px;
 }
 
 .right :hover {
-    border-top: solid 3px #0065FC;
+    border-top: solid 2px #0065FC;
     cursor: pointer;
     text-decoration: none;
     color: #0065FC;
