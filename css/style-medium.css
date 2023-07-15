@@ -1,28 +1,58 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1280px) {
+
+     /* nav */
+     .right {
+          display: flex;
+          width: 244px;
+          height: 35px;
+          padding-left: 50px; 
+          padding-right: 50px; 
+          flex-direction: row; 
+          justify-content: space-around;
+          margin-bottom: 45px;
+          gap: 68px;
+     }
+
+     /* search bar */
+     .fa-sharp {
+          width: auto;
+          height: 49px;
+          background-color: #F2F2F2;
+          border-radius: 15px 0px 0px 15px;
+          color: #000000;
+          display: flex;
+          padding-left: 20px;
+          padding-right: 20px;
+          align-items: center;
+          font-size: 18px;
+      }
    
-    /* filter */
-    .filter {
+     /* filter */
+     .filter {
          display: flex;
          flex-direction: row;
          justify-content: center;
          position: absolute;
-         margin-bottom: 70px;
+         margin-bottom: 60px;
      }
 
-     .filter h3 {
-         font-size: 20px;
+     .icones .filter h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
      }
 
      .icones {
-        height: 91px;
-        width: 668px;
+         height: 91px;
+         width: 668px;
+         align-items: last baseline; 
      }
 
      .icones ul {
          width: 100%;
          height: auto;
+         align-items: last baseline; 
      }
      
      .icones ul :hover {
@@ -41,12 +71,12 @@
      
      .icones li {
         width: auto;
-        height: 42px;
-         border: var(--grey-tint-2, #D9D9D9) 2px solid ;
-         border-radius: 50px;
-         align-items: center;
-         padding: 4px 15px;
-         margin-top: 20px;
+        height: 38px;
+        border: var(--grey-tint-2, #D9D9D9) 2px solid ;
+        border-radius: 50px;
+        align-items: center;
+        padding: 4px 15px;
+        margin-top: 20px;
      }
      
      .icones h3 {

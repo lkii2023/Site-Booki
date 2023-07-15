@@ -112,26 +112,25 @@
     }
      
     /* filter */
-
     .filter {
         display: flex;
-        margin-bottom: 120px;
+        margin-bottom: 135px;
         margin-top: 0;
-     }
+    }
  
      .filter h3 {
         width: 100%;
         font-size: 18px;
         margin-bottom: 20px;
-     }
-    .icones {
+    }
+     .icones {
        display: flex;
        flex-direction: column;
-       width: 335px;
+       width: 100%;
        height: auto;
     }
 
-    .icones ul {
+     .icones ul {
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
@@ -207,4 +206,5 @@
         padding: 0;
     }
     }
+    
     
