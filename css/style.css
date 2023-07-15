@@ -79,6 +79,13 @@ nav {
     text-decoration: none;
     color: #0065FC;
 }
+
+.right .current {
+    border-top: solid 2px #0065FC;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0065FC;
+}
   
 /* title */
 .title p {
