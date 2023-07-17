@@ -40,12 +40,9 @@ nav {
     background-color: white;
 }
 
-.left {
+.left img {
     display: flex;
     width: 161px;
-}
-
-.left img {
     width: 61px;
     height: 19px;
     margin: 0 50px;
@@ -125,7 +122,6 @@ nav {
     width: 100%;
     height: 49px;
     font-size: 18px;
-    line-height: 21px;
     text-align: center;
     color: #000000;
     border: none;
@@ -270,8 +266,7 @@ body {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
-    
+    padding: 0px 50px; 
 }
 
 .hebergements-and-populaires section {
@@ -330,4 +325,3 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
