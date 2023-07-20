@@ -1,6 +1,5 @@
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px)  {
-    
     .main-container {
        margin: 0;
        padding: 0;
@@ -15,6 +14,10 @@
        display: flex;
        flex-direction: column;
        height: auto;
+       position: -webkit-sticky;
+       position: sticky;
+       top: 0;
+       overflow: hidden;
     }
   
     .left {
@@ -131,6 +134,7 @@
         width: 100%;
         font-size: 18px;
         margin-bottom: 20px;
+        
     }
      .icones {
        display: flex;
@@ -209,10 +213,88 @@
        padding-bottom: 1px;
        font-size: 16px;
     }
-  /* ... */
-    .hebergements-and-populaires {
-        padding: 0;
-    }
-}
-
     
+      /* hebergements */
+      .hebergements-and-populaires {
+         display: flex;
+         flex-direction: column-reverse;
+         width: 100%;
+         height: auto;
+         margin: 0;
+         padding: 0;
+         border-radius: 0;
+      }
+
+      .hebergements-and-populaires .hebergements {
+         display: flex;
+         flex-direction: column;
+         width: auto;
+         height: 1435px;
+         margin: 0;
+         padding: 20px;
+         border-radius: 0;
+         background-color: initial;
+         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.10); 
+      }
+
+      .form-1 .hebergements-cards {
+         display: flex;
+         flex-direction: column;
+         max-width: 100%;
+         width: 97%;
+         height: auto;
+         gap: 15px;
+         margin-top: 15px;
+      }
+
+      .form-2 .hebergements-cards {
+         display: flex;
+         flex-direction: column;
+         max-width: 100%;
+         width: 97%;
+         height: auto;  
+         gap: 15px;
+         margin-top: 15px; 
+      }
+
+      .hebergements-cards .card {
+         display: flex;
+         flex-wrap : wrap;
+         height: auto;
+         width: 97%;
+         max-width: 100%;
+         align-items: center;
+         padding-bottom: 15px;    
+      }
+
+      .section-more-title {
+         margin-top: 15px;
+         height: 21px;
+         font-size: 18px;
+      }
+
+   /* populaires section */
+      .populaires-cards {
+         display: flex;
+         flex-direction: column;
+         width: 97%;
+         max-width: 100%;
+         height: auto;
+         gap: 15px;
+         margin-top: 15px;
+      }
+
+      .hebergements-and-populaires section {
+         background-color: var(--main-bg-color);
+         border-radius: 0;
+         padding: 30px 20px;
+         box-sizing: border-box;
+         height: auto;
+         margin: 0;
+      }
+
+      .populaires-cards .card {
+         display: flex;
+         margin-top: 0px;
+      }
+}
