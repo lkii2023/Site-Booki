@@ -22,6 +22,7 @@ html {
 /* nav bar */
 .main-container-nav {
     width: 1440px;
+    max-width: 100%;
 }
 
 nav {
@@ -314,16 +315,7 @@ body {
     height: auto;
   }
 
-.form-1 .hebergements-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap : nowrap;
-    max-width: 100%;
-    height: auto;  
-    gap: 30px;
-    margin-top: 30px;
-}
-
+.form-1 .hebergements-cards, 
 .form-2 .hebergements-cards {
     display: flex;
     flex-direction: row;
@@ -446,10 +438,11 @@ body {
 .activites  {
     margin: 35px 50px;
     padding: 30px;
-    max-width: 1280px;
+    width: auto;
 }
 
 .activites .title {
+    display: flex;
     font-size: 16px;
     font-family: Raleway;
     padding: 0 0 30px 0;
@@ -457,11 +450,9 @@ body {
 
 .card-activites {
     display: flex;
-    align-self: stretch;
+    align-items: center;
     justify-content: space-between;
     gap: 30px;
-    width: auto;
-    
 }
 
 .card-body {
@@ -481,6 +472,7 @@ body {
 
 .card-body img{
     width: 297px;
+    max-width: 100%;
     height: 380px;
     border-top-left-radius: 20px; 
     border-top-right-radius: 20px;
@@ -488,9 +480,11 @@ body {
     margin-bottom: -5px;
     background-position: center;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.10);
+    object-fit: cover;
 }
 
 .card-body h3 {
+    display: flex;
     padding: 20px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.10);
     border-bottom-left-radius: 20px;
