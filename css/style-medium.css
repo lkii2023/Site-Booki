@@ -212,4 +212,13 @@
         font-size: 16px;
     }
 
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        max-width: 924px;
+        height: 163px;
+        margin: 0 50px 60px 50px;
+        background-color: #F2F2F2;
+    }
 }

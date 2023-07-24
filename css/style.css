@@ -181,14 +181,14 @@ nav {
     width: auto;
     justify-content: center;
     align-items: center;
-    border: #F2F2F2 2px solid ;
+    border: #D9D9D9 2px solid ;
     border-radius: 50px;
     align-items: center;
     padding: 0 19px;
 }
 
 .icones ul :hover {
-    cursor: pointer;
+    cursor: initial;
     text-decoration: none;
     background: var(--blue-light, #DEEBFF);
 }
@@ -375,6 +375,10 @@ body {
     width: 32%;
 }
 
+.populaires .neutralStar {
+    color: #F2F2F2;
+}
+
 .populaires-title {
     display: flex;
     justify-content: space-between;
@@ -484,3 +488,46 @@ body {
     margin-top: -2px;
     font-size: 16px;
 }
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1340px;
+    height: 163px;
+    margin: 0 50px 60px 50px;
+    background-color: #F2F2F2;
+}
+
+.footer h3  {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    height: 123px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.left-menu, .center-menu, .right-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.footer .left-menu li, .center-menu li, .right-menu li {
+    display: flex;
+    max-width: 100%;
+    margin-top: 15px;
+    list-style: none;
+}
+
