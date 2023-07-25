@@ -102,20 +102,20 @@
          height: auto;
      }
     
-     .hebergements-cards {
+    .hebergements-cards {
          display: flex;
          flex-wrap: wrap;
          justify-content: space-between;
          gap: 20px;
      }
      
-     .hebergements-cards .card {
-          width: 100%;
-          max-width: 100%;
-          max-height: 192px;
-          display: flex;
-          flex-grow: 1;
-          flex-direction: row;
+    .hebergements-cards .card {
+         width: 100%;
+         max-width: 100%;
+         max-height: 192px;
+         display: flex;
+         flex-grow: 1;
+         flex-direction: row;
      }
  
     .form-container {
